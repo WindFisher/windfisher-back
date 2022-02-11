@@ -1,5 +1,5 @@
 {
-  "name": "windfisher-back",
+  "name": "temp",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -20,7 +20,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "737b37d1-c877-4fbf-a97a-45df2faf2020"
+    "uuid": "eaa4d8d6-6edb-4351-90ab-6324e009e6d5"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
