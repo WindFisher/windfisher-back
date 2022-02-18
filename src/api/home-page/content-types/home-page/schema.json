@@ -61,9 +61,6 @@
     "bloc2Title": {
       "type": "string"
     },
-    "bloc2Content": {
-      "type": "string"
-    },
     "bloc2Image": {
       "type": "media",
       "multiple": false,
@@ -77,6 +74,9 @@
     },
     "blocNewsletterContent": {
       "type": "text"
+    },
+    "bloc2Content": {
+      "type": "richtext"
     }
   }
 }

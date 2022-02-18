@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-02-18T11:24:52.865Z"
+    "x-generation-date": "2022-02-18T12:11:08.748Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5070,9 +5070,6 @@
                               "bloc2Title": {
                                 "type": "string"
                               },
-                              "bloc2Content": {
-                                "type": "string"
-                              },
                               "bloc2Image": {
                                 "type": "object",
                                 "properties": {
@@ -5447,6 +5444,9 @@
                                 "type": "string"
                               },
                               "blocNewsletterContent": {
+                                "type": "string"
+                              },
+                              "bloc2Content": {
                                 "type": "string"
                               },
                               "createdAt": {
@@ -7158,9 +7158,6 @@
                             "bloc2Title": {
                               "type": "string"
                             },
-                            "bloc2Content": {
-                              "type": "string"
-                            },
                             "bloc2Image": {
                               "type": "object",
                               "properties": {
@@ -7535,6 +7532,9 @@
                               "type": "string"
                             },
                             "blocNewsletterContent": {
+                              "type": "string"
+                            },
+                            "bloc2Content": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -8058,9 +8058,6 @@
                       "bloc2Title": {
                         "type": "string"
                       },
-                      "bloc2Content": {
-                        "type": "string"
-                      },
                       "bloc2Image": {
                         "oneOf": [
                           {
@@ -8076,6 +8073,9 @@
                         "type": "string"
                       },
                       "blocNewsletterContent": {
+                        "type": "string"
+                      },
+                      "bloc2Content": {
                         "type": "string"
                       },
                       "createdAt": {
