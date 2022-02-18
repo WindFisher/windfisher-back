@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/advantages-lists": {
+    "/pages": {
       "get": {
         "responses": {
           "200": {
@@ -20,6 +20,9 @@
                             "type": "object",
                             "properties": {
                               "title": {
+                                "type": "string"
+                              },
+                              "description": {
                                 "type": "string"
                               },
                               "image": {
@@ -392,10 +395,7 @@
                                   }
                                 }
                               },
-                              "subtitle": {
-                                "type": "string"
-                              },
-                              "slug": {
+                              "content": {
                                 "type": "string"
                               },
                               "createdAt": {
@@ -875,7 +875,7 @@
           }
         },
         "tags": [
-          "Advantages-list"
+          "Page"
         ],
         "parameters": [
           {
@@ -980,6 +980,9 @@
                             "title": {
                               "type": "string"
                             },
+                            "description": {
+                              "type": "string"
+                            },
                             "image": {
                               "type": "object",
                               "properties": {
@@ -1350,10 +1353,7 @@
                                 }
                               }
                             },
-                            "subtitle": {
-                              "type": "string"
-                            },
-                            "slug": {
+                            "content": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -1812,7 +1812,7 @@
           }
         },
         "tags": [
-          "Advantages-list"
+          "Page"
         ],
         "parameters": [],
         "requestBody": {
@@ -1827,6 +1827,9 @@
                       "title": {
                         "type": "string"
                       },
+                      "description": {
+                        "type": "string"
+                      },
                       "image": {
                         "oneOf": [
                           {
@@ -1838,10 +1841,7 @@
                         ],
                         "example": "string or id"
                       },
-                      "subtitle": {
-                        "type": "string"
-                      },
-                      "slug": {
+                      "content": {
                         "type": "string"
                       },
                       "createdAt": {
@@ -1887,7 +1887,7 @@
         }
       }
     },
-    "/advantages-lists/{id}": {
+    "/pages/{id}": {
       "get": {
         "responses": {
           "200": {
@@ -1905,6 +1905,9 @@
                           "type": "object",
                           "properties": {
                             "title": {
+                              "type": "string"
+                            },
+                            "description": {
                               "type": "string"
                             },
                             "image": {
@@ -2277,10 +2280,7 @@
                                 }
                               }
                             },
-                            "subtitle": {
-                              "type": "string"
-                            },
-                            "slug": {
+                            "content": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -2739,7 +2739,7 @@
           }
         },
         "tags": [
-          "Advantages-list"
+          "Page"
         ],
         "parameters": [
           {
@@ -2774,6 +2774,9 @@
                             "title": {
                               "type": "string"
                             },
+                            "description": {
+                              "type": "string"
+                            },
                             "image": {
                               "type": "object",
                               "properties": {
@@ -3144,10 +3147,7 @@
                                 }
                               }
                             },
-                            "subtitle": {
-                              "type": "string"
-                            },
-                            "slug": {
+                            "content": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -3606,7 +3606,7 @@
           }
         },
         "tags": [
-          "Advantages-list"
+          "Page"
         ],
         "parameters": [
           {
@@ -3632,6 +3632,9 @@
                       "title": {
                         "type": "string"
                       },
+                      "description": {
+                        "type": "string"
+                      },
                       "image": {
                         "oneOf": [
                           {
@@ -3643,10 +3646,7 @@
                         ],
                         "example": "string or id"
                       },
-                      "subtitle": {
-                        "type": "string"
-                      },
-                      "slug": {
+                      "content": {
                         "type": "string"
                       },
                       "createdAt": {
@@ -3850,7 +3850,7 @@
           }
         },
         "tags": [
-          "Advantages-list"
+          "Page"
         ],
         "parameters": [
           {

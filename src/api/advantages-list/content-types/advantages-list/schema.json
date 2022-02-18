@@ -4,7 +4,8 @@
   "info": {
     "singularName": "advantages-list",
     "pluralName": "advantages-lists",
-    "displayName": "Advantages list"
+    "displayName": "Advantages list",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,14 +15,18 @@
     "title": {
       "type": "string"
     },
-    "logo": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "subtitle": {
+      "type": "string"
+    },
+    "slug": {
       "type": "string"
     }
   }
