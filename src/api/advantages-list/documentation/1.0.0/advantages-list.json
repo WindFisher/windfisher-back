@@ -395,9 +395,6 @@
                               "subtitle": {
                                 "type": "string"
                               },
-                              "slug": {
-                                "type": "string"
-                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -1353,9 +1350,6 @@
                             "subtitle": {
                               "type": "string"
                             },
-                            "slug": {
-                              "type": "string"
-                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1841,9 +1835,6 @@
                       "subtitle": {
                         "type": "string"
                       },
-                      "slug": {
-                        "type": "string"
-                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -2278,9 +2269,6 @@
                               }
                             },
                             "subtitle": {
-                              "type": "string"
-                            },
-                            "slug": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -3147,9 +3135,6 @@
                             "subtitle": {
                               "type": "string"
                             },
-                            "slug": {
-                              "type": "string"
-                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -3644,9 +3629,6 @@
                         "example": "string or id"
                       },
                       "subtitle": {
-                        "type": "string"
-                      },
-                      "slug": {
                         "type": "string"
                       },
                       "createdAt": {

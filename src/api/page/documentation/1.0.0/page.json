@@ -398,6 +398,9 @@
                               "content": {
                                 "type": "string"
                               },
+                              "slug": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -1356,6 +1359,9 @@
                             "content": {
                               "type": "string"
                             },
+                            "slug": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1844,6 +1850,9 @@
                       "content": {
                         "type": "string"
                       },
+                      "slug": {
+                        "type": "string"
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -2281,6 +2290,9 @@
                               }
                             },
                             "content": {
+                              "type": "string"
+                            },
+                            "slug": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -3150,6 +3162,9 @@
                             "content": {
                               "type": "string"
                             },
+                            "slug": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -3647,6 +3662,9 @@
                         "example": "string or id"
                       },
                       "content": {
+                        "type": "string"
+                      },
+                      "slug": {
                         "type": "string"
                       },
                       "createdAt": {
