@@ -1,0 +1,82 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroSubtitle": {
+      "type": "string"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heroVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "useVideo": {
+      "type": "boolean",
+      "default": false
+    },
+    "bloc1Title": {
+      "type": "string"
+    },
+    "bloc1Content": {
+      "type": "richtext"
+    },
+    "bloc1Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "blocAdvantagesTitle": {
+      "type": "string"
+    },
+    "blocAdvantagesContent": {
+      "type": "richtext"
+    },
+    "bloc2Title": {
+      "type": "string"
+    },
+    "bloc2Content": {
+      "type": "string"
+    },
+    "bloc2Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "blocNewsletterTitle": {
+      "type": "string"
+    },
+    "blocNewsletterContent": {
+      "type": "text"
+    }
+  }
+}
