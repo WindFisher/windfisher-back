@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_menus_menu_items",
+  "info": {
+    "displayName": "Menu item",
+    "icon": "sitemap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "title": {
+      "type": "string"
+    },
+    "customURL": {
+      "type": "string"
+    }
+  }
+}
