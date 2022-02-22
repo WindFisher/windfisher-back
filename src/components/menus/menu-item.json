@@ -7,15 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "page": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::page.page"
-    },
     "title": {
       "type": "string"
     },
-    "customURL": {
+    "url": {
       "type": "string"
     }
   }
