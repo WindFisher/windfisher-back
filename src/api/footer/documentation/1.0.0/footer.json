@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/menu": {
+    "/footer": {
       "get": {
         "responses": {
           "200": {
@@ -19,7 +19,7 @@
                           "attributes": {
                             "type": "object",
                             "properties": {
-                              "Menu": {
+                              "item": {
                                 "type": "array",
                                 "items": {
                                   "type": "object",
@@ -513,7 +513,7 @@
           }
         },
         "tags": [
-          "Menu"
+          "Footer"
         ],
         "parameters": [
           {
@@ -615,7 +615,7 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "Menu": {
+                            "item": {
                               "type": "array",
                               "items": {
                                 "type": "object",
@@ -1088,7 +1088,7 @@
           }
         },
         "tags": [
-          "Menu"
+          "Footer"
         ],
         "parameters": [],
         "requestBody": {
@@ -1100,7 +1100,7 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "Menu": {
+                      "item": {
                         "type": "array",
                         "items": {
                           "type": "object",
@@ -1315,7 +1315,7 @@
           }
         },
         "tags": [
-          "Menu"
+          "Footer"
         ],
         "parameters": [],
         "requestBody": {}
