@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_valorisation_item_valorisations",
+  "info": {
+    "displayName": "item-valorisation",
+    "icon": "plus-square"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
