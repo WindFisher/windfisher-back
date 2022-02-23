@@ -77,6 +77,11 @@
     },
     "bloc2Content": {
       "type": "richtext"
+    },
+    "valorisationItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "valorisation.item-valorisation"
     }
   }
 }
