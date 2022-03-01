@@ -402,6 +402,9 @@
                               "slug": {
                                 "type": "string"
                               },
+                              "description": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -1364,6 +1367,9 @@
                             "slug": {
                               "type": "string"
                             },
+                            "description": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1837,6 +1843,12 @@
                       },
                       "content": {
                         "type": "string"
+                      },
+                      "slug": {
+                        "type": "string"
+                      },
+                      "description": {
+                        "type": "string"
                       }
                     }
                   }
@@ -2245,6 +2257,9 @@
                               "type": "string"
                             },
                             "slug": {
+                              "type": "string"
+                            },
+                            "description": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -3118,6 +3133,9 @@
                             "slug": {
                               "type": "string"
                             },
+                            "description": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -3619,6 +3637,9 @@
                         "type": "string"
                       },
                       "slug": {
+                        "type": "string"
+                      },
+                      "description": {
                         "type": "string"
                       },
                       "createdAt": {

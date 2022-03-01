@@ -34,7 +34,13 @@
       "required": true
     },
     "slug": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "regex": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "description": {
+      "type": "text",
+      "required": true
     }
   }
 }
